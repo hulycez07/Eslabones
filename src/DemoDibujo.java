@@ -32,7 +32,7 @@ public class DemoDibujo extends JFrame{
 	//metodo paint para ael dibujado de elementos
 	public void paint(Graphics g){
 		Graphics2D g2=(Graphics2D) g;
-		g2.setPaint(Color.MAGENTA);
+		g2.setPaint(Color.BLACK);
 		Polygon poly=new Polygon();
 		
 		poly.addPoint(45, 200);
@@ -42,7 +42,7 @@ public class DemoDibujo extends JFrame{
 		
 	g2.fillPolygon(poly);
 	
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly2=new Polygon();
 	
 	poly2.addPoint(45, 200);
@@ -52,7 +52,7 @@ public class DemoDibujo extends JFrame{
 	
     g2.fillPolygon(poly2);
     
-    g2.setPaint(Color.MAGENTA);
+    g2.setPaint(Color.BLACK);
 	Polygon poly3=new Polygon();
 	
 	poly3.addPoint(110, 160);
@@ -62,7 +62,7 @@ public class DemoDibujo extends JFrame{
 	
     g2.fillPolygon(poly3);
     
-    g2.setPaint(Color.magenta);
+    g2.setPaint(Color.BLACK);
 	Polygon poly4=new Polygon();
 	
 	poly4.addPoint(135, 170);
@@ -72,7 +72,7 @@ public class DemoDibujo extends JFrame{
 	
     g2.fillPolygon(poly4);
     
-    g2.setPaint(Color.pink);
+    g2.setPaint(Color.GRAY);
 	Polygon poly5=new Polygon();
 	
 	poly5.addPoint(80, 150);
@@ -89,7 +89,7 @@ public class DemoDibujo extends JFrame{
     g2.fillPolygon(poly5);
     
     
-    g2.setPaint(Color.pink);
+    g2.setPaint(Color.GRAY);
 	Polygon poly6=new Polygon();
 	
 	poly6.addPoint(105, 158);
@@ -99,7 +99,7 @@ public class DemoDibujo extends JFrame{
 	
     g2.fillPolygon(poly6);
     
-    g2.setPaint(Color.orange);
+    g2.setPaint(Color.BLUE);
 	Polygon poly7=new Polygon();
 	
 	poly7.addPoint(165, 120);
@@ -109,7 +109,7 @@ public class DemoDibujo extends JFrame{
 	
     g2.fillPolygon(poly7);
     
-    g2.setPaint(Color.magenta);
+    g2.setPaint(Color.BLACK);
 	Polygon poly8=new Polygon();
 	
 	poly8.addPoint(165, 120);
@@ -119,7 +119,7 @@ public class DemoDibujo extends JFrame{
 	
     g2.fillPolygon(poly8);
     
-    g2.setPaint(Color.orange);
+    g2.setPaint(Color.BLUE);
 	Polygon poly9=new Polygon();
 	
 	poly9.addPoint(165, 183);
@@ -129,7 +129,7 @@ public class DemoDibujo extends JFrame{
 	
     g2.fillPolygon(poly9);
     
-    g2.setPaint(Color.orange);
+    g2.setPaint(Color.BLUE);
 	Polygon poly10=new Polygon();
 	
 	poly10.addPoint(155, 198);
@@ -139,7 +139,7 @@ public class DemoDibujo extends JFrame{
 	
     g2.fillPolygon(poly10);
     
-    g2.setPaint(Color.orange);
+    g2.setPaint(Color.BLUE);
 	Polygon poly11=new Polygon();
 	
 	poly11.addPoint(70, 210);
@@ -149,7 +149,7 @@ public class DemoDibujo extends JFrame{
 	
     g2.fillPolygon(poly11);
     
-    g2.setPaint(Color.orange);
+    g2.setPaint(Color.BLUE);
 	Polygon poly12=new Polygon();
 
 	poly12.addPoint(70, 280);
@@ -159,7 +159,7 @@ public class DemoDibujo extends JFrame{
 	
     g2.fillPolygon(poly12);
     
-    g2.setPaint(Color.orange);
+    g2.setPaint(Color.BLUE);
 	Polygon poly14=new Polygon();
 	
 	poly14.addPoint(90, 322);
@@ -169,7 +169,7 @@ public class DemoDibujo extends JFrame{
 	
     g2.fillPolygon(poly14);
     
-    g2.setPaint(Color.orange);
+    g2.setPaint(Color.BLUE);
 	Polygon poly15=new Polygon();
 	
 	poly15.addPoint(135, 298);
@@ -180,7 +180,7 @@ public class DemoDibujo extends JFrame{
 	
 	g2.fillPolygon(poly15);
 	
-	 g2.setPaint(Color.magenta);
+	 g2.setPaint(Color.BLACK);
 	Polygon poly16=new Polygon();
 		
 	poly16.addPoint(120, 249);
@@ -190,7 +190,7 @@ public class DemoDibujo extends JFrame{
 		
 	g2.fillPolygon(poly16);
 		
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly17=new Polygon();
 			
 	poly17.addPoint(135, 300);
@@ -200,17 +200,9 @@ public class DemoDibujo extends JFrame{
 			
 	g2.fillPolygon(poly17);
 	
-	/*g2.setPaint(Color.pink);
-	Polygon poly18=new Polygon();
-			
-	poly18.addPoint(92, 315);
-	poly18.addPoint(125, 300);
-	poly18.addPoint(220, 360);
-	poly18.addPoint(225, 375);
 	
-	g2.fillPolygon(poly18);*/
 	
-	g2.setPaint(Color.magenta);
+	g2.setPaint(Color.BLACK);
 	Polygon poly19=new Polygon();
 			
 	poly19.addPoint(100, 317);
@@ -226,7 +218,7 @@ public class DemoDibujo extends JFrame{
 			
 	g2.fillPolygon(poly19);
 
-	g2.setPaint(Color.magenta);
+	g2.setPaint(Color.BLACK);
 	Polygon poly20=new Polygon();
 			
 	poly20.addPoint(200, 440);
@@ -236,7 +228,7 @@ public class DemoDibujo extends JFrame{
 	
 	g2.fillPolygon(poly20);
 	
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly21=new Polygon();
 			
 	poly21.addPoint(200, 418);
@@ -246,7 +238,7 @@ public class DemoDibujo extends JFrame{
 	
 	g2.fillPolygon(poly21);
 	
-	g2.setPaint(Color.orange);
+	g2.setPaint(Color.BLUE);
 	Polygon poly22=new Polygon();
 			
 	poly22.addPoint(150, 400);
@@ -256,7 +248,7 @@ public class DemoDibujo extends JFrame{
 	
 	g2.fillPolygon(poly22);
 	
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly23=new Polygon();
 	
 	poly23.addPoint(100, 317);
@@ -266,7 +258,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly23);
 	
-	g2.setPaint(Color.orange);
+	g2.setPaint(Color.BLUE);
 	Polygon poly24=new Polygon();
 	
 	poly24.addPoint(220, 363);
@@ -276,7 +268,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly24);
 	
-	g2.setPaint(Color.orange);
+	g2.setPaint(Color.BLUE);
 	Polygon poly25=new Polygon();
 	
 	poly25.addPoint(220, 420);
@@ -286,7 +278,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly25);
 	
-	g2.setPaint(Color.magenta);
+	g2.setPaint(Color.BLACK);
 	Polygon poly26=new Polygon();
 	
 	poly26.addPoint(220, 420);
@@ -296,7 +288,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly26);
 	
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly27=new Polygon();
 	
 	poly27.addPoint(220, 399);
@@ -312,7 +304,7 @@ public class DemoDibujo extends JFrame{
 	
 	g2.fillPolygon(poly27);
 	
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly28=new Polygon();
 	
 	poly28.addPoint(325, 328);
@@ -322,7 +314,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly28);
 	
-	g2.setPaint(Color.magenta);
+	g2.setPaint(Color.BLACK);
 	Polygon poly29=new Polygon();
 	
 	poly29.addPoint(343, 341);
@@ -332,7 +324,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly29);
 	
-	g2.setPaint(Color.orange);
+	g2.setPaint(Color.BLUE);
 	Polygon poly30=new Polygon();
 	
 	poly30.addPoint(343, 341);
@@ -342,7 +334,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly30);
 	
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly31=new Polygon();
 	
 	poly31.addPoint(390, 362);
@@ -353,7 +345,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly31);
 	
-	g2.setPaint(Color.orange);
+	g2.setPaint(Color.BLUE);
 	Polygon poly32=new Polygon();
 	
 	poly32.addPoint(285, 426);
@@ -363,7 +355,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly32);
 	
-	g2.setPaint(Color.magenta);
+	g2.setPaint(Color.BLACK);
 	Polygon poly33=new Polygon();
 	
 	poly33.addPoint(375, 355);
@@ -373,7 +365,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly33);  
 	
-	g2.setPaint(Color.orange);
+	g2.setPaint(Color.BLUE);
 	Polygon poly34=new Polygon();
 	
 	poly34.addPoint(375, 355);
@@ -389,7 +381,7 @@ public class DemoDibujo extends JFrame{
 	
 	g2.fillPolygon(poly34); 
 	
-	g2.setPaint(Color.orange);
+	g2.setPaint(Color.BLUE);
 	Polygon poly35=new Polygon();
 	
 	poly35.addPoint(375, 265);
@@ -399,7 +391,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly35);
 	
-	g2.setPaint(Color.magenta);
+	g2.setPaint(Color.BLACK);
 	Polygon poly36=new Polygon();
 	
 	poly36.addPoint(416, 246);
@@ -409,7 +401,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly36);
 	
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly37=new Polygon();
 	
 	poly37.addPoint(416, 271);
@@ -419,7 +411,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly37);
     
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly38=new Polygon();
 	
 	poly38.addPoint(351, 240);
@@ -429,7 +421,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly38);
 	
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly39=new Polygon();
 	
 	poly39.addPoint(428, 226);
@@ -439,7 +431,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly39);
 	
-	g2.setPaint(Color.orange);
+	g2.setPaint(Color.BLUE);
 	Polygon poly40=new Polygon();
 	
 	poly40.addPoint(408, 234);
@@ -449,7 +441,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly40);
 	
-	g2.setPaint(Color.magenta);
+	g2.setPaint(Color.BLACK);
 	Polygon poly41=new Polygon();
 	
 	poly41.addPoint(409, 234);
@@ -465,7 +457,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly41);
 	
-	g2.setPaint(Color.magenta);
+	g2.setPaint(Color.BLACK);
 	Polygon poly42=new Polygon();
 	
 	poly42.addPoint(285, 180);
@@ -475,7 +467,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly42);
 	
-	g2.setPaint(Color.magenta);
+	g2.setPaint(Color.BLACK);
 	Polygon poly43=new Polygon();
 	
 	poly43.addPoint(285, 70);
@@ -485,7 +477,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly43);
 	
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly44=new Polygon();
 	
 	poly44.addPoint(270, 60);
@@ -495,7 +487,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly44);
 	
-	g2.setPaint(Color.pink);
+	g2.setPaint(Color.GRAY);
 	Polygon poly45=new Polygon();
 	
 	poly45.addPoint(285, 150);
@@ -505,7 +497,7 @@ public class DemoDibujo extends JFrame{
 
 	g2.fillPolygon(poly45);
 	
-	g2.setPaint(Color.orange);
+	g2.setPaint(Color.BLUE);
 	Polygon poly46=new Polygon();
 	
 	poly46.addPoint(285, 150);
@@ -516,34 +508,7 @@ public class DemoDibujo extends JFrame{
 	g2.fillPolygon(poly46);
 	
 	
-		//Dibuja una linea
-		/*g2.setPaint(Color.MAGENTA);
-		for(int i=0; i<500; i+=50){
-		g2.draw(new Line2D.Double(50+i,50,50+i,450));
-		g2.draw(new Line2D.Double(50,50+i,450,50+i));
-		}*/
-		//Dibujar rectangulo
-		/*g2.setColor(Color.red);
-		g2.fillRect(50,50,110,200);
-		g2.setColor(Color.BLUE);*/
-		/*g2.draw(new Rectangle2D.Double(50,50,110,200));
-		g2.draw(new Rectangle2D.Double(180, 250, 110,200));
-		for(int i=0; i<1; i+=500){
-			g2.draw(new Line2D.Double(50+i,50,182+i,255));
-			g2.draw(new Line2D.Double(158+i,50,293+i,255));
-			g2.draw(new Line2D.Double(50+i,250,180+i,448));
-			g2.draw(new Line2D.Double(161+i,250,288+i,447));
-		}*/
-		/*g2.setColor(Color.pink);
-		g2.draw(new Arc2D.Double(50,90,300,150,180,180, Arc2D.OPEN));
-		g2.draw(new Arc2D.Double(50,150,300,150,360,180, Arc2D.OPEN));
-		g2.draw(new Ellipse2D.Double(155,150,90,90));
-		g2.draw(new Ellipse2D.Double(175,170,50,50));*/
 		
-		//Dibujar un rectangulo con borde redondo
-		//g2.draw(new RoundRectangle2D.Double(50,50,150,150,10,60));
-		//Dibujar un arco
-		//g2.draw(new Arc2D.Double(50,50,150,150,90,150. Arc2D.PIE));
 	}
 
 }
